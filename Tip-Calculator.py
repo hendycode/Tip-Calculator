@@ -6,4 +6,4 @@ nopeeps = int(input("How many people will split the bill? "))
 perbill = totalbill / nopeeps
 pertip = tiptotal / nopeeps
 total = perbill + pertip
-print(f"Alright, so each person will pay Ksh{total}. \nThank you for visting us")
+print(f"Alright, so each person will pay Ksh{total:.4}. \nThank you for visting us")
